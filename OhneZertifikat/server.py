@@ -1,6 +1,6 @@
 import socket
 
-HOST, PORT = "127.0.0.1", 8443
+HOST, PORT = "127.0.0.1", 9000
 
 with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as sock:
     sock.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)

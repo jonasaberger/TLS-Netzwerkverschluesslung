@@ -1,6 +1,6 @@
 import socket
 
-HOST, PORT = "localhost", 8443 #IP-Adresse und Port anpassen
+HOST, PORT = "10.10.0.183", 9000 # IP-Adresse und Port anpassen
 
 with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as sock:
     sock.connect((HOST, PORT))
